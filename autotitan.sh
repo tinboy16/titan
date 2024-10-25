@@ -18,7 +18,7 @@ docker run --network=host -d -v ~/.titanedge:/root/.titanedge nezha123/titan-edg
 
 # Wait for 8 seconds before running the bind command
 echo "Waiting for 8 seconds..."
-sleep 8
+sleep 12
 
 # Run the binding command
 echo "Binding device with hash..."
