@@ -1,10 +1,10 @@
 # Hướng Dẫn Sử Dụng AutoTitan Script
 
-Script này giúp tự động hóa việc thiết lập và cấu hình `Titan Edge`. Các bước dưới đây sẽ hướng dẫn bạn tải và chạy script `autotitan.sh`.
+Script này giúp tự động hóa việc thiết lập và cấu hình `Titan Edge` chỉ với một dòng lệnh. Lệnh này sẽ tải và chạy script trực tiếp mà không lưu lại file trên hệ thống.
 
-## Bước 1: Tải Script `autotitan.sh`
+## Thực Thi Lệnh AutoTitan
 
-Đầu tiên, bạn cần tải script từ kho lưu trữ GitHub:
+Chạy lệnh sau trong terminal:
 
 ```bash
-curl -O https://raw.githubusercontent.com/tinboy16/titan/refs/heads/main/autotitan.sh
+curl -s https://raw.githubusercontent.com/tinboy16/titan/refs/heads/main/autotitan.sh | bash
